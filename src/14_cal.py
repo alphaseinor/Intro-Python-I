@@ -31,7 +31,6 @@ import sys
 import calendar
 from datetime import datetime
 
-print(sys.argv[1])
 month = datetime.now().month
 year = datetime.now().year
 
@@ -40,6 +39,5 @@ if len(sys.argv) == 2:
 elif len(sys.argv) == 3:
     month = int(sys.argv[1])
     year = int(sys.argv[2])
-
 
 print(calendar.month(year, month, 2, 1))
