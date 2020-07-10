@@ -10,3 +10,10 @@ num = int(num)
 
 # YOUR CODE HERE
 
+def evenodd(i):
+  if i % 2 == 0:
+    print("even")
+  else:
+    print('odd')
+
+evenodd(num)
