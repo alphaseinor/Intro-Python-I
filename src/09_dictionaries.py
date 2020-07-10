@@ -42,7 +42,7 @@ waypoints = [
 # waypoints list.
 
 # YOUR CODE HERE
-waypoints.append({"lat":-130, "lon":-121, "name":"not a real place"})
+waypoints.append({"lat": -130, "lon": -121, "name": "not a real place"})
 
 # Write a loop that prints out all the field values for all the waypoints
 # YOUR CODE HERE
